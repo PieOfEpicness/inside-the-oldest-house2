@@ -9,16 +9,12 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play inside the oldest house.</tw-noscript></noscript></tw-story>
-<tw-storydata name="inside the oldest house" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="2CF4C795-F656-409B-9B64-E190830040C1" options="" tags="" zoom="0.3" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img.story-image-smallest {width: 25%;}
+<tw-storydata name="inside the oldest house" startnode="1" creator="Twine" creator-version="2.10.0" format="Harlowe" format-version="3.3.9" ifid="2CF4C795-F656-409B-9B64-E190830040C1" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">img.story-image-smallest {width: 25%;}
 img.story-image-smaller {width: 30%;}
 img.story-image-medium {width: 50%;}
 img.story-image-big {width: 75%}
 img.story-image-large {width: 100%;}
-tw-story[tags~=black-cat-background] {
-	background-image: url('/images/black-cat-background.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Into the cave" tags="" position="725,350" size="100,100">&lt;img class=&quot;story-image-big&quot; src=&quot;/images/cave.jpg&quot; alt=&quot;a cave&quot; /&gt;
+tw-story[tags~=black-cat-background][background-image: (/images/black-cat-background.jpg); background-size: cover; background-repeat: no-repeat;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Into the cave" tags="" position="725,350" size="100,100">&lt;img class=&quot;story-image-big&quot; src=&quot;/images/cave.jpg&quot; alt=&quot;a cave&quot; /&gt;
 I’d always been curious. To my own detriment, really. When I was younger, when we were visiting family in India, I went inside a cave. Took a torch and a couple of cousins, and down we [[went.]] </tw-passagedata><tw-passagedata pid="2" name="went." tags="" position="850,350" size="100,100">They turned back after a while, but I kept going.
 
 
@@ -43,7 +39,7 @@ Amma and Papa wanted me to become a doctor, or a lawyer, yet my heart lied with 
 =|=
 Locals suspected a werewolf, I suspected a less-than-creative serial killer. I pitched the story to my editor, and he told me to get the facts.
 =|=
-&lt;img class=&quot;story-image-medium&quot; src=&quot;/images/human-hand-chair2.jpeg&quot; alt=&quot;human hand chair&quot; /&gt; The facts were… way more than I could bring back to my editor. I found the place, an abandoned warehouse just outside of Albany, New York. Owned by the REDACTED Corporation.
+&lt;img class=&quot;story-image-medium&quot; src=&quot;/images/human-hand-chair2.jpeg alt= &quot;human hand chair&quot;/&gt; The facts were… way more than I could bring back to my editor. I found the place, an abandoned warehouse just outside of Albany, New York. Owned by the REDACTED Corporation.
 =|=
 I found the bodies before they did. Tried my best to help one escape before the [[human hand chair]] pulled them away. It nearly got me, too. I ran out before it could get me, too, but that’s when I ran into the [[agents.]] </tw-passagedata><tw-passagedata pid="5" name="agents." tags="" position="1225,350" size="100,100">&lt;img class=&quot;story-image-big&quot; src=&quot;/images/broken-camera.jpg&quot; alt=&quot;a camera&quot; /&gt;
 
@@ -69,7 +65,8 @@ I got up instead. I wanted to see my family again. I began to walk in the first 
 
 [[Go right.]]
 
-[[Go forward.]]</tw-passagedata><tw-passagedata pid="16" name="Go back." tags="" position="2225,475" size="100,100">I turned back, tried going back up the way I came, but the slope became too steep.</tw-passagedata><tw-passagedata pid="17" name="Go left." tags="" position="2350,225" size="100,100">I turned left, and I walked for a while, but hit a wall.</tw-passagedata><tw-passagedata pid="18" name="Go right." tags="" position="2350,475" size="100,100">I turned right, and I walked and walked, until my head hit the ceiling. I kept going, crouching, the ceiling getting lower, the walls getting closer, until I was crawling on my hands and knees. I stopped, reminded of the cave I was stuck in as a child. It was too tight to turn back, the walls pressing in, making it hard to breathe. Maybe it was my anxiety and fear. I just wanted my Papa to find me, to bring me home. I started crying, thinking about my parents, how they’d never know what happened to me. I wanted to be home with them, sitting in their kitchen, apologising for not becoming a doctor or a damned layer. 
+[[Go forward.]]</tw-passagedata><tw-passagedata pid="16" name="Go back." tags="" position="2225,475" size="100,100">I turned back, tried going back up the way I came, but the slope became too steep.</tw-passagedata><tw-passagedata pid="17" name="Go left." tags="" position="2350,225" size="100,100">I turned left, and I walked for a while, but hit a wall.</tw-passagedata><tw-passagedata pid="18" name="Go right." tags="" position="2350,475" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;X&quot;)[I turned right, and I walked and walked, until my head hit the ceiling. ]
+(align:&quot;&lt;==&quot;)[(text-rotate-y:16)+(text-rotate-z:356)[I kept going, crouching, the ceiling getting lower, ]](align:&quot;==&gt;&quot;)[(text-rotate-y:16)+(text-rotate-z:5)[the walls getting closer, until I was crawling on my hands and knees.]] I stopped, reminded of the cave I was stuck in as a child. It was too tight to turn back, the walls pressing in, making it hard to breathe. Maybe it was my anxiety and fear. I just wanted my Papa to find me, to bring me home. I started crying, thinking about my parents, how they’d never know what happened to me. I wanted to be home with them, sitting in their kitchen, apologising for not becoming a doctor or a damned layer. 
 
 Despite the oncoming panic attack, I remembered my training, I squeezed through, my hands feeling an opening ahead of me. I grunted in exertion, my thighs burning as my knees pushed me through. I took a deep breath, coughing from how restricted I was.
 
@@ -173,11 +170,23 @@ I gulped. “Pithla bhakri?”
 
 “Yes. Though the House is still in lockdown, so no home yet. My assistant Jesse works on it, should be over soon.” He waves a hand at the other side of the desk, telling me to sit.
 
-“Who are you?” I ask, staring at the wise, weathered face of the man.
+“Who are you?” I ask, staring at the wise, weathered face of the man. “I’ve seen you around, but… I never asked for your name.”
 
-“Ahti.”
+“Is okay. My name is Ahti. I do my job well if you don’t notice me.”
 
-“Thank you, Ahti.”</tw-passagedata></tw-storydata>
+“Thank you, Ahti.” I scooped the pithla bhakri with the naan, letting out a few happy tears as I tasted it. “This tastes just like my Amma’s.”
+
+“It is your Amma’s,” Ahti said, humming in contentment from his own bite. “Very good. Your mother wonderful cook.”
+
+“She is,” I smiled. “I can’t wait to see her. And my Papa.”
+
+“Yes, yes, very soon. You just have important decision to make,” he looks at me seriously. “The House needs new Director of Communications.” I dropped my naan into my pithla bhakri. “Is important job.”
+
+“It is…” I agree. I thought back to my journey. How I was taken away at just the right moment. Everytime the House shifted as one of my corrupted coworkers tried to attack me. “The House was protecting me, wasn’t it?”
+
+“A little bit House, a little bit me. New job, big legacy, more responsibility.”
+
+“It would be…” it would also mean less time for my family. But it had been something I had been working towards for a decade. Alberto had taken me under his wing for this reason. “I</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
